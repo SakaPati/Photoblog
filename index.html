@@ -1,80 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photoblog</title>
-</head>
-<body>
-  <!-- Шапка сайту -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#"><p>LIFESTYLE</p></a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photoblog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Шапка сайту -->
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="#" class="menu-link">LIFESTYLE</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">PHOTODIARY</a>
+            </li>
+            <li class="menu-item"><a href="#" class="menu-link"> MUSIC </a></li>
+            <li class="menu-item"><a href="#" class="menu-link">TRAVEL</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Основна частина -->
+    <main>
+      <section class="news">
+        <div class="container">
+          <h2 class="title">Галерея</h2>
+          <ul class="news-list">
+            <li class="news-item">
+              <img
+                src="images/girl.jpg"
+                alt="Дівчина на концерте"
+                class="news-img"
+              />
+              <p class="news-category">LIFESTYLE</p>
+              <h2 class="news-title">More than just a music festival</h2>
+              <p class="news-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
 
-        <li><a href="#"> <p>PHOTODIARY</p></a></li>
+            <li class="news-item">
+              <img src="images/coffe.jpg" alt="кофе" class="news-img" />
+              <p class="news-category">LIFESTYLE</p>
+              <h2 class="news-title">Life tastes better with coffee</h2>
+              <p class="news-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
 
-        <li><a href="#"><p>MUSIC</p></a></li>
+            <li class="news-item">
+              <img
+                src="images/two-girl.jpg"
+                alt="две подругі возле моста"
+                class="news-img"
+              />
+              <p class="news-category">PHOTODAIRY</p>
+              <h2 class="news-title">American dream</h2>
+              <p class="news-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
 
-        <li><a href="#"> <p>TRAVEL</p></a></li>      
-    </ul>
-    </nav>
-  </header>
-  <!-- Основна частина -->
-  <main>
-<section>
-  <ul>
-  <li><img src="images/girl.jpg" alt="Дівчина на концерте">
-    <p>LIFESTYLE</p>
-    <p><b>More than just a music festival </b></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
-       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-         nisi ut aliquip ex ea.</p></li>
-         
-  <li><img src="images/coffe.jpg" alt="коффе">
-    <p>LIFESTYLE</p>
-    <p><b>Life tastes better with coffee</b></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-      enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-       nisi ut aliquip ex ea.</p></li>
+            <li class="news-item">
+              <img
+                src="images/man.jpg"
+                alt="человек в пальто"
+                class="news-img"
+              />
+              <p class="news-category">PHOTODAIRY</p>
+              <h2 class="news-title">A day exploring the Alps</h2>
+              <p class="news-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+            <li class="news-item">
+              <img src="images/1girl.jpg" alt="девушка" class="news-img" />
+              <p class="news-category">LIFESTYLE</p>
+              <h2 class="news-title">Top 10 song for running</h2>
+              <p class="news-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
 
-  <li><img src="images/two-girl.jpg" alt="две подругі возле моста">
-    <p>PHOTODAIRY</p>
-    <p><b>American dream</b></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-       enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-        nisi ut aliquip ex ea.</p></li>
-
-  <li><img src="images/man.jpg" alt="человек в пальто">
-    <p>PHOTODAIRY</p>
-    <p><b>A day exploring the Alps</b></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-       enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-        nisi ut aliquip ex ea.</p></li>
-
-  <li><img src="images/1girl.jpg" alt="девушка">
-    <p>LIFESTYLE</p>
-    <p><b>Top 10 song for running</b></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-       enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-        nisi ut aliquip ex ea.</p></li>
-
-  <li><img src="images/dirt.jpg" alt="Дорога">
-    <p>LIFESTYLE</p>
-    <p><b>Cold winter days</b></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-       enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-        nisi ut aliquip ex ea.</p></li>
-</ul>
-</section>
-<br>
-<button type="button">Load more</button>
-  </main>
-</body>
+            <li class="news-item">
+              <img src="images/dirt.jpg" alt="Дорога" class="news-img" />
+              <p class="news-category">LIFESTYLE</p>
+              <h2 class="news-title">Cold winter days</h2>
+              <p class="news-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <button type="button">
+          Load more
+          <svg width="14" height="14" class="icon-tg">
+            <use href="./icon/symbol-defs-2.svg#icon-tg"></use>
+          </svg>
+        </button>
+      </section>
+    </main>
+  </body>
 </html>

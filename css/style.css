@@ -1,0 +1,134 @@
+:root {
+  --main-color: #7d7d7d;
+  --accent-color: #03a9f4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: 0;
+}
+
+button {
+  font-family: "Playfair Display";
+  border: 2px solid #626262;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 48px;
+  color: #626262;
+  margin-top: 90px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: background-color 750ms ease 100ms, color 750ms ease 150ms,
+    border-radius 750ms ease 100ms;
+  cursor: pointer;
+}
+
+.icon-tg {
+  margin-left: 10px;
+  text-align: center;
+  transition: fill 750ms ease 100ms;
+}
+
+button:hover, button:focus .icon-tg {
+  fill: white;
+}
+
+button:hover,
+button:focus {
+  background-color: #03a9f4;
+  color: white;
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 910px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item + .menu-item {
+  margin-left: 100px;
+}
+.menu-link {
+  color: var(--main-color);
+  line-height: 1.35;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.menu-link:focus,
+.news-category {
+  font-weight: 300;
+}
+.title {
+  display: none;
+}
+
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 130px;
+}
+
+.news-item {
+  width: 420px;
+}
+
+.news-category {
+  color: #b4ad9e;
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+
+.news-title {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.news-text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.news {
+  padding-bottom: 150px;
+}
