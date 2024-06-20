@@ -1,7 +1,8 @@
-:root {
+/* :root {
   --main-color: #7d7d7d;
   --accent-color: #03a9f4;
 }
+
 h1,
 h2,
 h3,
@@ -19,9 +20,9 @@ ul {
 
 a {
   text-decoration: 0;
-}
+} */
 
-button {
+/* button {
   font-family: "Playfair Display";
   border: 2px solid #626262;
   display: block;
@@ -34,41 +35,41 @@ button {
   transition: background-color 750ms ease 100ms, color 750ms ease 150ms,
     border-radius 750ms ease 100ms;
   cursor: pointer;
-}
+} */
 
-.icon-tg {
+/* .icon-tg {
   margin-left: 10px;
   text-align: center;
   transition: fill 750ms ease 100ms;
-}
+} */
 
-button:hover, button:focus .icon-tg {
+/* button:hover, button:focus .icon-tg {
   fill: white;
-}
+} */
 
-button:hover,
+/* button:hover,
 button:focus {
   background-color: #03a9f4;
   color: white;
   border-radius: 10px;
-}
+} */
 
-body {
+/* body {
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-}
+} */
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 910px;
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
-.header {
+/* .header {
   padding-top: 70px;
   padding-bottom: 90px;
 }
@@ -89,12 +90,9 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
-}
-.menu-link:focus,
-.news-category {
-  font-weight: 300;
-}
-.title {
+} */
+
+/* .title {
   display: none;
 }
 
@@ -131,4 +129,4 @@ body {
 
 .news {
   padding-bottom: 150px;
-}
+} */

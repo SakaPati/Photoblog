@@ -1,0 +1,46 @@
+.news {
+  padding-bottom: 150px;
+
+  .title {
+  display: none;
+}
+
+&-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 130px;
+
+  @media screen and (max-width:768px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .news-item {
+   width: 420px;
+
+   
+
+.news-category {
+  color: #b4ad9e;
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+
+.news-title {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.news-text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+}
+}
+}
+}
